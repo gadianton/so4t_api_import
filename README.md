@@ -14,7 +14,7 @@ This script is offered with no formal support from Stack Overflow. If you run in
 
 **Installing Dependencies**
 
-There's only a single, non-default library that is required: the [Requests](https://pypi.org/project/requests/) library for Python. If you already have it installed, you can skip to the API authentication section.
+There's only a single, non-default Python library that is required: [Requests](https://pypi.org/project/requests/). If you already have it installed, you can skip to the API authentication section.
 * Open a terminal window (or, for Windows, a command prompt)
 * Navigate to the directory where you unpacked the files
 * Install the dependencies: `pip3 install -r requirements.txt`
