@@ -39,7 +39,7 @@ Once you have a CSV file created, open a terminal window and navigate to the dir
 `python3 so4t_api_import.py --url "https://stackoverflowteams.com/c/TEAM-NAME" --token "uDtDkCATuydvpj2RzXFOaA))" --csv 'questions.csv' --questions`
 * Importing articles into Enterprise from a CSV file named 'articles.csv': `python3 so4t_api_import.py --url "https://SUBDOMAIN.stackenterprise.co" --key "1oklfRnLqQX49QehDBWzP3Q((" --token "uDtDkCATuydvpj2RzXFOaA))" --csv 'articles.csv' --articles`
 
-Standard usage of the script will involve using the following, arguments:
+Standard usage of the script will involve using the following arguments:
 * `--url https://your.instance.url`
 * `--token 'YourToken'`
 * `--key 'YourKey'` [only required for Enterprise]
