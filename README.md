@@ -53,7 +53,7 @@ As the script runs, it will continue to update the terminal window with the task
 ## Advanced Usage
 For Enterprise customers, there's an advanced ability to impersonate users for the purposes of appropriate attributing imported content. Documentation of the functionality can be found here: https://support.stackenterprise.co/support/solutions/articles/22000245133-service-keys-identity-delegation-and-impersonation#impersonation
 
-Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privilege, but to configure and to use the impersonation functionality of this API script.
+Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privileges, both to configure the product and to use the impersonation functionality of this API script.
 
 Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns to contain to the account IDs of users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use the CSV files with the 'impersonation' prefix.
 
