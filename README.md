@@ -55,7 +55,7 @@ For Enterprise customers, there's an advanced ability to impersonate users for t
 
 Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privileges, both to configure the product and to use the impersonation functionality of this API script.
 
-Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns to contain to the account IDs of users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use the CSV files with the 'impersonation' prefix.
+Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns for the account IDs of users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use the CSV files with the 'impersonation' prefix.
 
 ## Known limitations and considerations
 
