@@ -43,7 +43,7 @@ Standard usage of the script will involve using the following, arguments:
 * `--url https://your.instance.url`
 * `--token 'YourToken'`
 * `--key 'YourKey'` [only required for Enterprise]
-* `--csv 'path/to/file.csv`'
+* `--csv 'path/to/file.csv'`
 * `--articles` or `questions` [one or the other, depending on what you're importing]
 
 Additionally, you can always view available arguments and descriptions via the `--help` argument. Example: `python3 so4t_api_import.py --help`
