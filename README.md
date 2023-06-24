@@ -32,7 +32,7 @@ Creating an access token for Enterpise can sometimes be tricky for people who ha
 * In the URL of that page, you'll find your access token. Example: `https://YOUR.SO-ENTERPRISE.URL/oauth/login_success#access_token=sRsbqFUEk7FW4c9N3zirWQ))`
 
 ## Basic Usage
-First, you'll need to populate a CSV with content to import into Stack Overflow for Teams. There's a Templates directory in this project that you can use as a starting point. 
+First, you'll need to populate a CSV with content to import into Stack Overflow for Teams. There's a [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory in this project that you can use as a starting point. The CSV files found therein are preformatted with the proper column names.
 
 Once you have a CSV file created, open a terminal window and navigate to the directory where you unpacked the script. Examples of running the script:
 * Importing questions into Business from a CSV file named 'questions.csv': 
@@ -55,7 +55,7 @@ For Enterprise customers, there's an advanced ability to impersonate users for t
 
 Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privilege, but to configure and to use the impersonation functionality of this API script.
 
-Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns to contain to the account IDs of users to impersonate. Please the the Templates directory.
+Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns to contain to the account IDs of users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use the CSV files with the 'impersonation' prefix.
 
 ## Known limitations and considerations
 
