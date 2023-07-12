@@ -12,9 +12,8 @@ This script is offered with no formal support from Stack Overflow. If you run in
 
 [Download](https://github.com/jklick-so/so4t_api_import/archive/refs/heads/main.zip) and unpack the contents of this repository
 
-**Installing Dependencies**
+**Install Required Python Libraries**
 
-There's only a single, non-default Python library that is required: [Requests](https://pypi.org/project/requests/). If you already have it installed, you can skip to the API authentication section.
 * Open a terminal window (or, for Windows, a command prompt)
 * Navigate to the directory where you unpacked the files
 * Install the dependencies: `pip3 install -r requirements.txt`
@@ -51,7 +50,7 @@ Additionally, you can always view available arguments and descriptions via the `
 As the script runs, it will continue to update the terminal window with the tasks it's performing.
 
 ## Advanced Usage
-For Enterprise customers, there's an advanced ability to impersonate users for the purposes of appropriate attributing imported content. Documentation of the functionality can be found here: https://support.stackenterprise.co/support/solutions/articles/22000245133-service-keys-identity-delegation-and-impersonation#impersonation
+For Enterprise customers, there's an advanced ability to impersonate users for the purposes of appropriatelt attributing imported content to users. Documentation of the functionality can be found here: https://support.stackenterprise.co/support/solutions/articles/22000245133-service-keys-identity-delegation-and-impersonation#impersonation
 
 Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privileges, both to configure the product and to use the impersonation functionality of this API script.
 
