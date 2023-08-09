@@ -49,10 +49,10 @@ def get_args():
         data from a file.',
         # epilog = 'Example for Stack Overflow Business: \n'
         #         'python3 so4t_api_import.py --url "https://stackoverflowteams.com/c/TEAM-NAME" '
-        #         '--token "uDtDJCATuydTpj2RzXFOaA))" \n\n'
+        #         '--token "YOUR_TOKEN" \n\n'
         #         'Example for Stack Overflow Enterprise: \n'
         #         'python3 so4t_api_import.py --url "https://SUBDOMAIN.stackenterprise.co" '
-        #         '--key "1oklfRnLqQX49QehDBWzP3Q((" --token "uDtDJCATuydTpj2RzXFOaA))" --\n\n')
+        #         '--key "YOUR_KEY" --token "YOUR_TOKEN" --\n\n')
     )
     parser.add_argument('--url', 
                         type=str,

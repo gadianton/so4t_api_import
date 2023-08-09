@@ -35,13 +35,13 @@ First, you'll need to populate a CSV with content to import into Stack Overflow 
 
 Once you have a CSV file created, open a terminal window and navigate to the directory where you unpacked the script. Examples of running the script:
 * Importing questions into Business from a CSV file named 'questions.csv': 
-`python3 so4t_api_import.py --url "https://stackoverflowteams.com/c/TEAM-NAME" --token "uDtDkCATuydvpj2RzXFOaA))" --csv 'questions.csv' --questions`
-* Importing articles into Enterprise from a CSV file named 'articles.csv': `python3 so4t_api_import.py --url "https://SUBDOMAIN.stackenterprise.co" --key "1oklfRnLqQX49QehDBWzP3Q((" --token "uDtDkCATuydvpj2RzXFOaA))" --csv 'articles.csv' --articles`
+`python3 so4t_api_import.py --url "https://stackoverflowteams.com/c/TEAM-NAME" --token "YOUR_TOKEN" --csv 'questions.csv' --questions`
+* Importing articles into Enterprise from a CSV file named 'articles.csv': `python3 so4t_api_import.py --url "https://SUBDOMAIN.stackenterprise.co" --key "YOUR_KEY --token "YOUR_TOKEN" --csv 'articles.csv' --articles`
 
 Standard usage of the script will involve using the following arguments:
 * `--url https://your.instance.url`
-* `--token 'YourToken'`
-* `--key 'YourKey'` [only required for Enterprise]
+* `--token 'YOUR_TOKEN'`
+* `--key 'YOUR_KEY'` [only required for Enterprise]
 * `--csv 'path/to/file.csv'`
 * `--articles` or `--questions` [one or the other, depending on what you're importing]
 
