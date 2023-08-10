@@ -50,15 +50,15 @@ Additionally, you can always view available arguments and descriptions via the `
 As the script runs, it will continue to update the terminal window with the tasks it's performing.
 
 ## Advanced Usage
-For Enterprise customers, there's an advanced ability to impersonate users for the purposes of appropriatelt attributing imported content to users. Documentation of the functionality can be found here: https://support.stackenterprise.co/support/solutions/articles/22000245133-service-keys-identity-delegation-and-impersonation#impersonation
+For Enterprise customers, there's an advanced ability to impersonate users for the purposes of appropriately attributing imported content to specific users. Documentation of the functionality can be found here: https://support.stackenterprise.co/support/solutions/articles/22000245133-service-keys-identity-delegation-and-impersonation#impersonation
 
-Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privileges, both to configure the product and to use the impersonation functionality of this API script.
+Impersonation functionality is not enabled by default and requires opening a ticket with support@stackoverflow.com. It also requires a user account with admin privileges, both to configure impersonation and to use the impersonation functionality of this API script.
 
-Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. To do so, you'll need to use a CSV format with columns for the account IDs of users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use the CSV files with the 'impersonation' prefix.
+Adding the `--impersonate` argument to the basic usage of the script allows you to leverage the impersonation functionality. You'll need to use an impersonation CSV format, which includes an additional column for the account ID for users to impersonate. Please see the [CSV Templates](https://github.com/jklick-so/so4t_api_import/tree/main/CSV%20Templates) directory and use a template with the 'impersonation' prefix.
 
 ## Known limitations and considerations
 
-* Articles can only be an imported at a rate of one per minute. Yes, it's slow. It's a limitation of v2.3 of the API. API v3 does not have this limitation and it's the version of the API we use for importing questions and answers, which is much faster. However, API v3 does not yet support Articles.
+* Articles can only be an imported at a rate of one per minute. Yes, it's slow. It's a limitation of v2.3 of the API. API v3 does not have this limitation and it's the version of the API the script uses for importing questions and answers, which is much faster. However, API v3 is still a work in progress and does not yet support Articles.
 * Source content that contains images, embeds, and attachments cannot be imported via API. Images can be imported by copy-paste after the bulk import is completed. Embeds and attachments can be likewise added post-import by either copying their contents or hyperlinking to the external file. 
 * Question imports are currently designed to support importing a single, corresponding answer. This is on the backlog for improvement.
 
